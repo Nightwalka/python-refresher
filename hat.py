@@ -3,9 +3,9 @@ import random
 class Hat:
 
     houses = ["x","t","w"]
-    @classmethod
+
     def sort(cls,name):
-        print(name, " is in", random.choice(cls.houses))
+        print(name, " is in", random.choice(self.houses))
 
-
-Hat.sort("harry")
+hat = Hat()
+hat.sort("harry")
